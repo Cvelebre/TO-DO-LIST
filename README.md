@@ -6,4 +6,4 @@ Link do nje mozete videti na [Netlify](https://sad-poitras-f3fd27.netlify.com) p
 
 ## Autor
 
-    _Boban Cvetkovic_
+    Boban Cvetkovic
