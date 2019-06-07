@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ЛИСТА ОБАВЕЗА</title>
+
+</head>
+
+<body>
+    <header>
+        <h1 id="clock"></h1>
+    </header>
+
+
+    <section class="container">
+
+        <h1>ЛИСТА ЗАДАТАКА</h1>
+
+        <div class="new-task-container box">
+
+            <label for="new-task">Напиши нови задатак</label>
+            <input type="text" id="new-task">
+            <button id="addTask">Додај у листу</button>
+
+        </div>
+
+
+        <div class="todo-list box">
+
+            <h2>Незавршени задаци</h2>
+            <ul>
+                <li><input type="checkbox"><label>час језика</lable>
+                </li>
+                <li><input type="checkbox"><label>позориште</lable>
+                </li>
+
+            </ul>
+
+        </div>
+
+
+        <div class="complete-list box">
+
+            <h2>Завршени задаци</h2>
+
+            <ul>
+                <li>пливање<button class="delete">Избриши</button></li>
+                <li>посао<button class="delete">Избриши</button></li>
+                <li>куповина<button class="delete">Избриши</button></li>
+            </ul>
+
+        </div>
+        
+    </section>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
